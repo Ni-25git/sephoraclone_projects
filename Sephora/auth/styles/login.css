@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#parent {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Poppins;
+    background-color: #F8F8FF;
+    text-align: center;
+}
+
+#form {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: large;
+}
+
+#form button {
+    width: 80px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+#bg-login {
+    background-image: url('https://cdn.wallpapersafari.com/14/32/1fwkap.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    #parent {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #form {
+        font-size: medium;
+    }
+
+    #form button {
+        width: 100px;
+    }
+
+    #bg-login {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #parent {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #form {
+        font-size: small;
+    }
+
+    #form button {
+        width: 100px;
+        height: 30px;
+    }
+
+    #bg-login {
+        height: 300px;
+    }
+}

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+#container {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    height: 60px;
+    width: auto;
+    background-color: pink;
+    text-align: center;
+}
+
+.span {
+    color: black;
+    font-size: medium;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #353935;
+}
+
+#parent2 {
+    height: 80px;
+    width: auto;
+    background-color: #F8F8FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#section {
+    margin-top: 12px;
+}
+
+#section button {
+    color: white;
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.img1 {
+    background-image: url('https://yesofcorsa.com/wp-content/uploads/2019/07/4K-Cosmetic-Wallpaper-HQ.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    #navbar {
+        height: 50px;
+    }
+
+    #parent2 {
+        height: 60px;
+    }
+
+    #section {
+        margin-top: 8px;
+    }
+
+    #section button {
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .img1 {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        height: 40px;
+    }
+
+    #parent2 {
+        height: 50px;
+    }
+
+    #section {
+        margin-top: 6px;
+    }
+
+    #section button {
+        width: 70px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .img1 {
+        height: 300px;
+    }
+}
