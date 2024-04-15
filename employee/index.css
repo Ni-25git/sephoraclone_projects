@@ -1,0 +1,132 @@
+/* Fill CSS here
+h1{
+    text-align: center;
+    color: #041690;
+}
+#container{
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+#form{
+    height: 600px;
+    width: 30%;
+    box-shadow: 2px 2px  5px grey;
+    margin-top: 30px;
+}
+#form form{
+    margin: 10px 20px;
+    padding: 10px 10px;
+
+}
+#form input,#department{
+    height: 40px;
+    width: 80%;
+    border: 0.5px solid  grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.submit{
+    background-color: #041690 ;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
+#form label{
+    font-size: large;
+    margin: 10px 0px;
+}
+#table{
+    height: auto;
+    width: 50%;
+    margin-top: 30px;
+}
+#table thead{
+    background-color: #041690;
+    color: white;
+    height: 35px;
+    width: auto;
+} */
+
+/* Common styles */
+h1 {
+    text-align: center;
+    color: #041690;
+    font-size: 24px; /* Adjust font size for responsiveness */
+}
+
+#container {
+    height: auto;
+    width: 100%;
+    max-width: 1200px; /* Limit container width for larger screens */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+#form {
+    height: auto;
+    width: 30%;
+    max-width: 300px; /* Limit form width for larger screens */
+    box-shadow: 2px 2px 5px grey;
+    margin-top: 30px;
+}
+
+#form form {
+    margin: 10px;
+    padding: 10px;
+}
+
+#form input, #department {
+    height: 40px;
+    width: 100%; /* Make input fields full width */
+    border: 0.5px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.submit {
+    background-color: #041690;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
+
+#form label {
+    font-size: large;
+    margin: 10px 0px;
+}
+
+#table {
+    height: auto;
+    width: 100%;
+    max-width: 800px; /* Limit table width for larger screens */
+    margin-top: 30px;
+}
+
+#table thead {
+    background-color: #041690;
+    color: white;
+    height: 35px;
+    width: auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    #container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center;
+    }
+
+    #form, #table {
+        width: 80%; /* Adjust width for smaller screens */
+        max-width: none;
+    }
+}
