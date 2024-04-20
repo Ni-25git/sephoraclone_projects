@@ -1,0 +1,11 @@
+#container{
+    text-align: center;
+}
+
+#container input{
+    height: 40px;
+    width: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: sans-serif;
+}
