@@ -1,0 +1,26 @@
+#button{
+    text-align: center;
+}
+#container{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+}
+#container div{
+   height: 60px;
+   width: 100%;
+   box-shadow: 0 2px 3px 3px grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Center items vertically within each div */
+    margin-bottom: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#container div p{
+    margin-right: 10px;
+    font-size: 20px;
+}

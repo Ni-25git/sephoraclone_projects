@@ -1,0 +1,41 @@
+#navbar{
+    height: 80px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: black;
+}
+#btn{
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#input{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10%;
+}
+
+ #container{
+    height: auto;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 20px;
+ }
+ #container>div{
+    height: 200px;
+    width: auto;
+    box-shadow: 2px 2px 3px 4px grey;
+    text-align: center;
+ }
