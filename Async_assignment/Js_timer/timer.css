@@ -1,10 +1,9 @@
 #container{
     text-align: center;
 }
-
 #container input{
-    height: 40px;
-    width: 50px;
+    height: 60px;
+    width: 80px;
     border: none;
     font-size: 30px;
     font-family: sans-serif;
