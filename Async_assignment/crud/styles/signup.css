@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#formDiv{
+    height: 400px;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 30px;
+    text-align: center;
+}
+#form{
+    margin-top: 20px;
+    font-size: large;
+}
+#form input{
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#form label{
+    margin-top: 10px;
+}
+#submit{
+    height: 40px;
+    width: 30%;
+    margin-top: 10px;
+    background-color: teal;
+    font-size: medium;
+    border-radius: 20px;
+}

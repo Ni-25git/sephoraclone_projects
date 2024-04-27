@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 80px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#login{
+    height: 80%;
+    margin-top: 10px;
+    width: 100px;
+    font-size: large;
+    font-family: sans-serif;
+}
+#signup{
+    height: 80%;
+    margin-top: 10px;
+    width: 100px;
+    font-size: large;
+    font-family: sans-serif;
+}

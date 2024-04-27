@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#navbar1{
+    height: 80px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+#navbar{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    
+}
+#cartTotal{
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    
+}
+#container{
+    height: auto;
+    margin-left: 10%;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+#container div{
+    height: 400px;
+    width: 30%;
+    text-align: center;
+}
+#container>div img{
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+}
