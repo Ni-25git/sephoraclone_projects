@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Employee Management System</h1>
+        <div id="navbar">
+            <!-- for filtering the department -->
+            <label >Filter by Department:</label>
+            <select  id="department">
+                <option >Select departments</option>
+                <option value="hr">hr</option>
+                <option value="">finance</option>
+                <option value="">marketing</option>
+                <option value="">engineering</option>
+                <option value="">operations</option>
+            </select>
+            <!-- for filtering by the genders -->
+            <label >Filter by Gender:</label>
+            <select id="gender">
+                <option >Select gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+
+            <!-- for sorting the salary according to the asc or desc order -->
+
+            <label >Sort by salary:</label>
+            <select id="salary">
+                <option >Select gender</option>
+                <option value="asc">Low to High</option>
+                <option value="desc">High to Low</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!-- employee table -->
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <!-- for save or append the data of employee table here in tbody-->
+        <tbody id="employeeData">
+
+        </tbody>
+
+    </table>
+
+    <div id="pagination">
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

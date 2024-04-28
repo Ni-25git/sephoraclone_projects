@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+#navbar{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#employeeTable thead{
+    width: 100%;
+    background-color: aliceblue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,table td{
+    border: 1x solid black;
+    padding: 10px;
+    text-align: left;
+}
+#pagination{
+    text-align: center;
+    margin-top: 10px;
+
+}
+#pagination button{
+    height: 50px;
+    width: 100px;
+}
+#prev{
+    margin-right: 15px;
+}
